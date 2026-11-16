@@ -1,0 +1,19 @@
+{
+  "name": "playwright-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "JavaScript API testing starter using Playwright and Restful Booker",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
